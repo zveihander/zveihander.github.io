@@ -1,1 +1,49 @@
 @import 'tailwindcss';
+
+@theme {
+  --color-gruvbox-bg: #282828;
+  --color-gruvbox-bg-hard: #1d2021;
+  --color-gruvbox-bg-soft: #32302f;
+  --color-gruvbox-bg0: #282828;
+  --color-gruvbox-bg1: #3c3836;
+  --color-gruvbox-bg2: #504945;
+  --color-gruvbox-bg3: #665c54;
+  --color-gruvbox-bg4: #7c6f64;
+
+  --color-gruvbox-fg: #ebdbb2;
+  --color-gruvbox-fg0: #fbf1c7;
+  --color-gruvbox-fg1: #ebdbb2;
+  --color-gruvbox-fg2: #d5c4a1;
+  --color-gruvbox-fg3: #bdae93;
+  --color-gruvbox-fg4: #a89984;
+
+  --color-gruvbox-red: #cc241d;
+  --color-gruvbox-red-bright: #fb4934;
+
+  --color-gruvbox-green: #98971a;
+  --color-gruvbox-green-bright: #b8bb26;
+
+  --color-gruvbox-yellow: #d79921;
+  --color-gruvbox-yellow-bright: #fabd2f;
+
+  --color-gruvbox-blue: #458588;
+  --color-gruvbox-blue-bright: #83a598;
+
+  --color-gruvbox-purple: #b16286;
+  --color-gruvbox-purple-bright: #d3869b;
+
+  --color-gruvbox-aqua: #689d6a;
+  --color-gruvbox-aqua-bright: #8ec07c;
+
+  --color-gruvbox-orange: #d65d0e;
+  --color-gruvbox-orange-bright: #fe8019;
+
+  --color-gruvbox-gray: #928374;
+  --color-gruvbox-gray-bright: #a89984;
+}
+
+body {
+    font-family: 'IBM Plex Sans Variable', sans-serif;
+    font-family: 'Petrona Variable', serif;
+    font-family: 'IBM Plex Mono', monospace;
+}
