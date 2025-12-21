@@ -6,6 +6,19 @@
 		<title>Evan Alvarez</title>
 		<meta name="description" content="evan's corner of the internet" />
 		<meta name="keywords" content="programming, coding, technology, blog, portfolio" />
+
+		<meta
+			http-equiv="Content-Security-Policy"
+			content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src 'self'; img-src 'self' https: data:; object-src 'none'; base-uri 'self'; frame-ancestors 'none';"
+		/>
+		<meta
+			http-equiv="Strict-Transport-Security"
+			content="max-age=63072000; includeSubDomains; preload"
+		/>
+		<meta http-equiv="X-Frame-Options" content="DENY" />
+		<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+		<meta http-equiv="Referrer-Policy" content="no-referrer-when-downgrade" />
+
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
