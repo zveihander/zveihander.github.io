@@ -8,7 +8,7 @@
 			linkElement = document.createElement('link');
 			linkElement.id = 'katex-css';
 			linkElement.rel = 'stylesheet';
-			linkElement.href = 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css';
+			linkElement.href = '/katex/katex.min.css';
 			document.head.appendChild(linkElement);
 		}
 	});
