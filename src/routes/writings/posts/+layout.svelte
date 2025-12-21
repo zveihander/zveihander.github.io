@@ -6,7 +6,7 @@
 
 <KaTeXStyles />
 
-<div class="bg-gruvbox-bg min-h-screen">
+<div class="min-h-screen bg-gruvbox-bg">
 	<div class="mx-auto max-w-screen-xl px-6">
 		<article class="prose-gruvbox">
 			{@render children()}
