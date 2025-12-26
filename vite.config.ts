@@ -4,6 +4,9 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
     plugins: [tailwindcss(), sveltekit()],
+    css: {
+        transformer: 'lightningcss',
+    },
     build: {
         cssMinify: 'lightningcss',
         minify: 'terser',
@@ -13,9 +16,6 @@ export default defineConfig({
                 drop_debugger: true,
                 pure_funcs: ['console.log', 'console.info'],
             },
-        },
-        css: {
-            transformer: 'lightningcss',
         },
     },
 });
