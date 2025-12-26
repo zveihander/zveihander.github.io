@@ -1,47 +1,65 @@
 export const prerender = true;
 
 export async function GET() {
-  const robots = `User-agent: *
+    const robots = `
+User-Agent: GPTBot
+User-Agent: ClaudeBot
+User-Agent: Claude-User
+User-Agent: Claude-SearchBot
+User-Agent: CCBot
+User-Agent: Google-Extended
+User-Agent: Applebot-Extended
+User-Agent: Facebookbot
+User-Agent: Meta-ExternalAgent
+User-Agent: Meta-ExternalFetcher
+User-Agent: diffbot
+User-Agent: PerplexityBot
+User-Agent: Perplexity‑User
+User-Agent: Omgili
+User-Agent: Omgilibot
+User-Agent: webzio-extended
+User-Agent: ImagesiftBot
+User-Agent: Bytespider
+User-Agent: TikTokSpider
+User-Agent: Amazonbot
+User-Agent: Youbot
+User-Agent: SemrushBot-OCOB
+User-Agent: Petalbot
+User-Agent: VelenPublicWebCrawler
+User-Agent: TurnitinBot
+User-Agent: Timpibot
+User-Agent: OAI-SearchBot
+User-Agent: ICC-Crawler
+User-Agent: AI2Bot
+User-Agent: AI2Bot-Dolma
+User-Agent: DataForSeoBot
+User-Agent: AwarioBot
+User-Agent: AwarioSmartBot
+User-Agent: AwarioRssBot
+User-Agent: Google-CloudVertexBot
+User-Agent: PanguBot
+User-Agent: Kangaroo Bot
+User-Agent: Sentibot
+User-Agent: img2dataset
+User-Agent: Meltwater
+User-Agent: Seekr
+User-Agent: peer39_crawler
+User-Agent: cohere-ai
+User-Agent: cohere-training-data-crawler
+User-Agent: DuckAssistBot
+User-Agent: Scrapy
+User-Agent: Cotoyogi
+User-Agent: aiHitBot
+User-Agent: Factset_spyderbot
+User-Agent: FirecrawlAgent
+
+Disallow: /
+DisallowAITraining: /
+
+User-Agent: *
+DisallowAITraining: /
+Content-Usage: ai=n
 Allow: /
-
-User-agent: GPTBot
-Disallow: /
-
-User-agent: ChatGPT-User
-Disallow: /
-
-User-agent: CCBot
-Disallow: /
-
-User-agent: Google-Extended
-Disallow: /
-
-User-agent: anthropic-ai
-Disallow: /
-
-User-agent: Claude-Web
-Disallow: /
-
-User-agent: ClaudeBot
-Disallow: /
-
-User-agent: Bytespider
-Disallow: /
-
-User-agent: Diffbot
-Disallow: /
-
-User-agent: FacebookBot
-Disallow: /
-
-User-agent: PerplexityBot
-Disallow: /
-
-User-agent: Omgilibot
-Disallow: /
-
-User-agent: YouBot
-Disallow: /
 
 Sitemap: https://evanalvarez.dev/sitemap.xml`;
 
@@ -51,3 +69,7 @@ Sitemap: https://evanalvarez.dev/sitemap.xml`;
     }
   });
 }
+User-Agent: *
+DisallowAITraining: /
+Content-Usage: ai=n
+Allow: /
