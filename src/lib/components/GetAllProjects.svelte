@@ -3,18 +3,18 @@
 		{
 			name: 'rstatus',
 			language: 'rust',
-			url: 'https://github.com/zveihander/rstatus',
+			url: 'https://git.evanalvarez.dev/rstatus',
 			description: 'minimal, hackable status bar for i3/sway',
 			openSource: true,
-			openSourceLink: 'https://github.com/zveihander/rstatus'
+			openSourceLink: 'https://git.evanalvarez.dev/rstatus'
 		}
 	];
 </script>
 
 <ul>
 	{#each projects as project}
-		<li class="text-md font-sans py-[1rem] text-md lg:text-md">
-			<div class="flex flex-col sm:flex-row sm:flex-wrap gap-x-2">
+		<li class="text-md text-md lg:text-md py-[1rem] font-sans">
+			<div class="flex flex-col gap-x-2 sm:flex-row sm:flex-wrap">
 				<a class="text-gruvbox-green hover:underline" href={project.url}>
 					{project.name}
 				</a>

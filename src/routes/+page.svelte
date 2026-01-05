@@ -11,6 +11,11 @@
 				<a href="/gpg/pubkey.asc" class="text-gruvbox-green hover:underline lg:text-[15px]">pgp</a>
 				::
 				<a
+					href="https://git.evanalvarez.dev"
+					class="text-gruvbox-green hover:underline lg:text-[15px]">cgit</a
+				>
+				::
+				<a
 					href="https://github.com/zveihander"
 					class="text-gruvbox-green hover:underline lg:text-[15px]">github</a
 				>
@@ -44,9 +49,21 @@
 			<a href="/projects" class="text-gruvbox-green hover:underline lg:text-[15px]">all projects</a>
 			::
 			<a
+				href="https://git.evanalvarez.dev"
+				class="text-gruvbox-green hover:underline lg:text-[15px]">cgit</a
+			>
+			::
+			<a
 				href="https://github.com/zveihander"
 				class="text-gruvbox-green hover:underline lg:text-[15px]">github</a
 			>
+		</div>
+		<div class="text-md pt-6 font-sans text-gruvbox-fg">
+			While I do use GitHub, I prefer to post my personal projects on my <a
+				href="https://git.evanalvarez.dev"
+				class="text-gruvbox-green hover:underline lg:text-[15px]">cgit instance</a
+			>. Using a private git server helps to promote a decentralized internet. If you want to use
+			any of my projects, I recommend you clone from there.
 		</div>
 	</div>
 </div>
