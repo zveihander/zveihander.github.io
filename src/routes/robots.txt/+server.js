@@ -54,11 +54,8 @@ User-Agent: Factset_spyderbot
 User-Agent: FirecrawlAgent
 
 Disallow: /
-DisallowAITraining: /
 
 User-Agent: *
-DisallowAITraining: /
-Content-Usage: ai=n
 Allow: /
 
 Sitemap: https://evanalvarez.dev/sitemap.xml`;
