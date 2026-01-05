@@ -5,9 +5,9 @@
     "": {
       "name": "website",
       "dependencies": {
-        "@fontsource-variable/ibm-plex-sans": "^5.2.8",
-        "@fontsource-variable/petrona": "^5.2.8",
         "@fontsource/ibm-plex-mono": "^5.2.7",
+        "@fontsource/ibm-plex-sans": "^5.2.8",
+        "@fontsource/petrona": "^5.2.8",
         "@sveltejs/enhanced-img": "^0.9.2",
       },
       "devDependencies": {
@@ -88,11 +88,11 @@
 
     "@esbuild/win32-x64": ["@esbuild/win32-x64@0.27.2", "", { "os": "win32", "cpu": "x64" }, "sha512-sRdU18mcKf7F+YgheI/zGf5alZatMUTKj/jNS6l744f9u3WFu4v7twcUI9vu4mknF4Y9aDlblIie0IM+5xxaqQ=="],
 
-    "@fontsource-variable/ibm-plex-sans": ["@fontsource-variable/ibm-plex-sans@5.2.8", "", {}, "sha512-n5PF2iFa0CZT0QYTPzxvZ39opC9LnU0zdoRccoADbs+Dtsd+lbXOZF7RNuIPHcQX1dKjF63sxnRImQIB5eD0Ag=="],
-
-    "@fontsource-variable/petrona": ["@fontsource-variable/petrona@5.2.8", "", {}, "sha512-IujUZ5jSEz5Qv/evWgxsHTxvon4d0uAxl8yb2Xm4uWgkGYH++BvTSpGIBgp8i1YneuUsjrI3A33hgdZeyQX/Og=="],
-
     "@fontsource/ibm-plex-mono": ["@fontsource/ibm-plex-mono@5.2.7", "", {}, "sha512-MKAb8qV+CaiMQn2B0dIi1OV3565NYzp3WN5b4oT6LTkk+F0jR6j0ZN+5BKJiIhffDC3rtBULsYZE65+0018z9w=="],
+
+    "@fontsource/ibm-plex-sans": ["@fontsource/ibm-plex-sans@5.2.8", "", {}, "sha512-eztSXjDhPhcpxNIiGTgMebdLP9qS4rWkysuE1V7c+DjOR0qiezaiDaTwQE7bTnG5HxAY/8M43XKDvs3cYq6ZYQ=="],
+
+    "@fontsource/petrona": ["@fontsource/petrona@5.2.8", "", {}, "sha512-2SK8TRiXX0PyU2Orp6JroUHyUlhvB+p01XuwOA38XXF/ehDry0c1XXF4PwNigTHVC9ufi7j63n/xGdGc0vxrkg=="],
 
     "@img/colour": ["@img/colour@1.0.0", "", {}, "sha512-A5P/LfWGFSl6nsckYtjw9da+19jB8hkJ6ACTGcDfEJ0aE+l2n2El7dsVM7UVHZQ9s2lmYMWlrS21YLy2IR1LUw=="],
 
