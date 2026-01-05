@@ -53,6 +53,7 @@ const config = {
 				'font-src': ['self', 'data:'],
 			},
 		},
+        inlineStyleThreshold: 51200,
 	},
 };
 
